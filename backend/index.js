@@ -9,7 +9,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// ✅ Use routes here
 app.use("/api", routes);
 
 const PORT = process.env.PORT || 5000;
